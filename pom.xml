@@ -45,12 +45,12 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.yerlibilgin.biometrics.Iso2xyt</mainClass>
+              <mainClass>com.yerlibilgin.biometrics.ISO2XYT</mainClass>
             </manifest>
           </archive>
         </configuration>
       </plugin>
-      
+
     </plugins>
   </build>
 </project>

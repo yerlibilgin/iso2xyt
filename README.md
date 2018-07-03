@@ -27,3 +27,29 @@ to convert a fmr file named **foo.txt** to **foo.xyt** do the following
 
 Later you can use the xyt file for matching fingerprints using the NIST **bozorth**.
 
+
+# using as  a library
+
+include maven dependency 
+
+```xml
+<dependency>
+  <groupId>com.yerlibilgin</groupId>
+  <artifactId>iso2xyt</artifactId>
+  <version>1</version>
+</dependency>
+```
+
+
+And use in your code:
+
+```java
+import com.yerlibilgin.biometrics.ISO2XYT;
+
+...
+
+byte []fmrBytes = ... //read bytes from somewhere
+
+byte []xyt = ISO2XYT.iso2xyt(fmrBytes)
+
+```
